@@ -1,0 +1,1 @@
+import{u as o,_ as n}from"./app-CkHevab5.js";const s=async()=>{const t=o();try{const{pageviewCount:e}=await n(()=>import("./app-CkHevab5.js").then(r=>r.M),[]);return e({serverURL:t.serverURL})}catch{console.error("@waline/client is not installed!")}};export{s as updatePageview};
